@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "blar-django-server"
+version = "0.1.0"
+description = ""
+authors = ["José Domínguez <jose@blar.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+django = "^5.0.6"
+djangorestframework = "^3.15.1"
+blar-graph = ">=0.0.16"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.1"
+dj-database-url = "^2.1.0"
+djangorestframework-simplejwt = "^5.3.1"
+pygments = "^2.18.0"
+gitpython = "^3.1.43"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
